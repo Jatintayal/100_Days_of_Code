@@ -23,6 +23,7 @@ int main()
 
     vector<string> B_temp = split_string(B_temp_temp);
 
+    vector<int> B(N);
 
     for (int i = 0; i < N; i++) {
         int B_item = stoi(B_temp[i]);
